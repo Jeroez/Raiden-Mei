@@ -1,0 +1,101 @@
+body{
+    background: url(https://pbs.twimg.com/media/EYn6zVBWoAEqzE2?format=jpg&name=large);
+    background-attachment: fixed;
+    font-weight: bold;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.valk1{
+    width: 50%;
+}
+.valk2{
+    width: 50%;
+}
+.FirstW{/*LI*/
+    height: 100px;
+    perspective: 1000px; 
+    margin-left: 10%;
+}
+.SecondW{/*LI*/
+    height: 100px;
+    perspective: 1000px; 
+    transform: rotateY(180deg);
+    margin-left: 10%;
+}
+.description{
+    width: 500px;
+    margin-top: -500px;
+    font-family: monospace;
+    font-size: 30px;
+    color: darkmagenta;
+}
+
+.right{
+    margin-left: 700px;
+}
+.Main{
+    margin-left: 250px;
+}   
+.sec{
+    height: 100%;
+}
+
+#navbar {/*UL*/
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    overflow-x: hidden;
+    padding: 50px 0px;
+    display: none;
+}
+#navbar a {
+    opacity: 0.9;
+}
+.current{
+    height: 200px;
+    width: 200px;
+    opacity: 1;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    display: block;
+}
+#navbar a:hover{
+    height: 100px;
+    width: 100px;
+}
+.Landingpic{
+    width: 100%;
+    height: 100%;
+}
+p, h1, h2, h3, h4, h5, h6{
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: beige;
+}
+
+.Portfolio{
+    display: block;
+    text-align: center;
+    background-color: aqua;
+    color: black;
+    padding: 10px;
+    margin: 20px auto;
+    width: 150px;
+    text-decoration: none;
+    border-radius: 5px;
+}
